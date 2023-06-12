@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="height: 80px">
+    <div class="container">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+  
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><i class="glyphicon glyphicon-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="glyphicon glyphicon-log-out"></i> Logout</a>
+          </li>
+          <form class="form-inline my-2 my-lg-0" style="margin-left: 500px;">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+</header>
+<body>
+  
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="text-center mb-5">Shopping Cart</h2>
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Product</th>
+              <th scope="col">Price</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img src=" laptops/41tzuaDZOPL._AC_UL480_FMwebp_QL65_.webp" alt="Laptop" class="mr-3">
+                <h4 class="d-inline-block align-middle">Asus vivobook 14</h4>
+              </td>
+              <td>Rs.60000</td>
+              <td>
+                <input type="number" value="1" min="1" class="form-control">
+              </td>
+              <td>Rs.60000</td>
+            </tr>
+            <tr>
+              <td>
+                <img src="mobiles/41wKBxAos4L._AC_UY327_QL65_.jpg" alt="Mobile" class="mr-3">
+                <h4 class="d-inline-block align-middle">Samsung galaxy note 10</h4>
+              </td>
+              <td>Rs.450000</td>
+              <td>
+                <input type="number" value="2" min="1" class="form-control">
+              </td>
+              <td>Rs.90000</td>
+            </tr>
+            <tr>
+              <td>
+                <img src="laptops/61oiV55jOdL._AC_UY327_QL65_ (1).jpg" alt="Laptop" class="mr-3">
+                <h4 class="d-inline-block align-middle">Asus Tuf
+                </h4>
+            </td>
+            <td>Rs.65000</td>
+            <td>
+              <input type="number" value="1" min="1" class="form-control">
+            </td>
+            <td>Rs.65000</td>
+          </tr>
+          <tr>
+            <td colspan="3" class="text-right"><strong>Total</strong></td>
+            <td><strong>Rs.215000</strong></td>
+          </tr>
+          
+        </tbody>
+      </table>
+      <form action="payment.html" method="post">
+      <button class="btn btn-primary btn-block">Proceed to Checkout</button>
+      </form>
+    </div>
+  </div>
+</div>
+<footer class="bg-dark text-white py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Company</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h4>Products</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">Laptops</a></li>
+          <li><a href="#">Mobiles</a></li>
+          <li><a href="#">Tablets</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h4>Follow Us</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-12">
+        <p class="text-center">&copy; 2023 E-Commerce Website. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

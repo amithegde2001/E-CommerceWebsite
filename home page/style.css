@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+   
+
+.nav-item a{
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-right: 20px;
+        font-size: x-small;
+    }
+.nav-item a:hover{
+        color: royalblue;
+        }
+
+        .bi-bag-check
+        {
+        font-size: 25px;
+        color: black;
+        cursor: pointer;
+        padding-top: 5px;
+        }
+
+        .navbar-toggler{
+            font-size: 23px;
+            color: black;
+            }
+            
+            .navbar-toggler:focus
+           { outline: none;
+            box-shadow: none;
+            }
+
+            .main{
+                background: url() no-repeat;
+                background-size: cover;
+                height: 90vh;
+                color: white;
+                width: 100%;
+                } 
+                .main h1{
+                font-size: 4rem;
+                }
+                .main p:nth-child(1) {
+                font-weight: 500;
+                padding-top: 100px;
+                }
+            
+                .mbtn1 {
+                    height: 50px;
+                    width: 25%;
+                    outline: none;
+                    border: none;
+                    color: white;
+                    background: blue;
+                    border-radius: 50px;
+                    transition: all 0.4s;
+                    }
+                    .mbtn1:hover{
+                    background-color: aqua;
+                    }
+                    .mbtn2{
+                    height: 50px;
+                    width: 25%;
+                    outline: none;
+                    background-color: transparent;
+                    color: white;
+                    border: 1px solid aquamarine;
+                    border-radius: 50px;    
+                    transition: all 0.4s;
+                    }
+            
+                .mbtn2:hover
+            {
+            background-color: wheat;
+            border: none;
+            color: black;
+            }
+            
+            
+            .line{
+                height: 6px;
+                width: 30%;
+                background: grey;
+                display: inline-block;
+                }
+            
+                .about{
+                background: url() no-repeat;
+                background-size: cover;
+                height: 90vh;
+                color: white;
+                width: 100%;
+                }
+            
+            
+            .about h1{
+            font-size: 4rem;
+            font-weight: bold;
+            }
+            .about p:nth-child(1){
+            font-size: 18px;
+            font-weight: 500;
+            padding-top: 10px;
+            }
+            .about p:nth-child(2) {
+            font-size: 18px;
+            color: grey;
+            }
+            
+            .welocome{
+                background:grey;
+                }
+            .line2{
+                height: 6px;
+                width: 30%;
+                background-color: yellowgreen;
+                display: inline-block;
+                }
+            .welocome h1{
+                font-size: 3rem;
+                font-weight: bold;
+                color: black;
+                }
+            
+            .welocome .card{
+                border: none;
+                border-radius: 0;
+                cursor: pointer;
+                    }
+            .welocome i{
+                font-size: 45px;
+                color: black;
+                }
+                .welocome p
+                {
+                    font-size: 2rem;
+                    color: black;
+                }
+                
+                .product
+                {
+                    background-color: grey;
+                }
+
+
+                .product h1{
+                    font-size: 4rem;
+                    font-weight: bold;
+                    }
+                    .product p:nth-child(1){
+                    font-size: 22px;
+                    font-weight: 900;
+                    padding-top: 100px;
+                    }
+                    .product p:nth-child(2) {
+                    font-size: 18px;
+                    color: grey;
+                    }
+
+                    .star{
+                        text-align: end;
+                        color: orange;
+                        }
+                        .product .card {
+                        border: none;
+                        border-radius: 0;
+                        cursor: pointer;
+                    }
+                        .product .card-body{
+                        border: 1px ashed Irgb(190, 185, 185);
+                        }
+                
+                        .head1 {
+                            font-weight: 400;
+                            margin: 0;
+                            }
+                            .per1{
+                            color: Irgb(168, 162, 162);
+                            }
+                            .btnc {
+                            height: 50px;
+                            width: 50%;
+                            outline: none;
+                            border: none;
+                            color: white;
+                            background: blue;
+                            border-radius: 50px;
+                            margin: 0 auto;
+                            display: block;
+                            transition: all 0.4s;
+                            }
+
+                            footer {
+                                width: 100%;
+                                height: 10em;
+                                margin: 10em auto 0 auto;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: #fffbf0;
+                            }
+                            footer p:nth-child(1) {
+                                margin: .5em 0 .25em 0;
+                                font-size: 1.5em;
+                                text-transform: capitalize;
+                            }
+                            #copy {
+                                margin: 0;
+                                font-size: .9em;
+                            }
+                            #footerLink {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            #footerLink a {
+                                margin: 0 .25em;
+                            }
+                            #footerLink a:hover {
+                                transform: scale(1.2);
+                            }
+                            #footerLink img {
+                                width: 2em;
+                            }
+                            #sectService {
+                                padding: 2em 0;
+                            }
+                            #serviceCard .card {
+                                margin: 1em;
+                                width: 30em;
+                                box-shadow: .2em .2em 10px rgba(0, 0, 0, .2);
+                            }
+                            #serviceCard .card-img {
+                                width: 5em;
+                                margin: 0 0 0 2em;
+                            }
+                            #serviceCard .card-body {
+                                width: 17.5em;
+                            }
+                            #serviceCard .card-title,
+                            #serviceCard .card-text {
+                                width: 22em;
+                                margin: 0;
+                            }
+                            #serviceImg {
+                                width: 25em;
+                            }
+                            
+                            #sectContact {
+                                width: 100%;
+                                margin: 10em auto 0 auto;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                            #sectContact img {
+                                width: 30em;
+                            }
+                            #sectContact p {
+                                margin: .5em;
+                                font-weight: 700;
+                                font-size: 2.5em;
+                                text-transform: uppercase;
+                            }
+                            #sectContact div {
+                                border-radius: 25px;
+                                box-shadow: .2em .2em 10px rgba(0, 0, 0, .3);
+                            }
+                            #sectContact input {
+                                width: 20em;
+                                padding: .5em 1em;
+                                font-size: 1.1em;
+                                border-radius: 25px;
+                                border: none;
+                                outline: none;
+                            }
+                            #sectContact a {
+                                margin-left: .1em;
+                                padding: .4em 1.5em;
+                                border-radius: 10px;
+                                font-size: 1.1em;
+                                box-shadow: .2em .2em 10px rgba(0, 0, 0, .05);
+                                background: blue;
+                                border-radius: 25px;
+                                border: .2em solid blue;
+                                color: #ffffff;
+                                text-decoration: none;
+                                transition: all ease .2s;
+                            }
+                            html
+                            {
+                                scroll-behavior: smooth;
+                            }
+
+                            .card:hover{
+                                box-shadow: -3px -1px 25px -4px rgba(0,0,0,0.75);
+                            -webkit-box-shadow: -3px -1px 25px -4px rgba(0,0,0,0.75);
+                            -moz-box-shadow: -3px -1px 25px -4px rgba(0,0,0,0.75);
+                            transition: o.5s;
+                            }
+
+
+
+                           
+                           

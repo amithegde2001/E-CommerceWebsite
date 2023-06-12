@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+.nav-item a{
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-left: 50px;
+        font-size: small;
+    }
+.nav-item a:hover{
+        color: royalblue;
+        }
+
+        .bi-bag-check
+        {
+        font-size: 25px;
+        color: black;
+        cursor: pointer;
+        padding-top: 5px;
+        }
+
+        .navbar-toggler{
+            font-size: 23px;
+            color: black;
+            }
+            
+            .navbar-toggler:focus
+           { outline: none;
+            box-shadow: none;
+            }
+            html
+            {
+                scroll-behavior: smooth;
+            }
+
+
+
+  footer {
+                width: 100%;
+                height: 10em;
+                margin: 10em auto 0 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: #fffbf0;
+            }
+            footer p:nth-child(1) {
+                margin: .5em 0 .25em 0;
+                font-size: 1.5em;
+                text-transform: capitalize;
+            }
+            #copy {
+                margin: 0;
+                font-size: .9em;
+            }
+            #footerLink {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #footerLink a {
+                margin: 0 .25em;
+            }
+            #footerLink a:hover {
+                transform: scale(1.2);
+            }
+            #footerLink img {
+                width: 2em;
+            }
+
+            #sectContact {
+                width: 100%;
+                margin: 10em auto 0 auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #sectContact img {
+                width: 30em;
+            }
+            #sectContact p {
+                margin: .5em;
+                font-weight: 700;
+                font-size: 2.5em;
+                text-transform: uppercase;
+            }
+            #sectContact div {
+                border-radius: 25px;
+                box-shadow: .2em .2em 10px rgba(0, 0, 0, .3);
+            }
+            #sectContact input {
+                width: 20em;
+                padding: .5em 1em;
+                font-size: 1.1em;
+                border-radius: 25px;
+                border: none;
+                outline: none;
+            }
+            #sectContact a {
+                margin-left: .1em;
+                padding: .4em 1.5em;
+                border-radius: 10px;
+                font-size: 1.1em;
+                box-shadow: .2em .2em 10px rgba(0, 0, 0, .05);
+                background: blue;
+                border-radius: 25px;
+                border: .2em solid blue;
+                color: #ffffff;
+                text-decoration: none;
+                transition: all ease .2s;
+            }
+
+            .product
+            {
+                background-color: grey;
+            }
+
+
+            .product h1{
+                font-size: 3rem;
+                font-weight: bold;
+                }
+                .product p:nth-child(1){
+                font-size: 18px;
+                font-weight: 500;
+                padding-top: 100px;
+                }
+                .product p:nth-child(2) {
+                font-size: 18px;
+                color: grey;
+                }
+
+                .star{
+                    text-align: end;
+                    color: orange;
+                    }
+                    .product .card {
+                    border: none;
+                    border-radius: 0;
+                    cursor: pointer;
+                }
+                    .product .card-body{
+                    border: 1px ashed Irgb(190, 185, 185);
+                    }
+            
+                    .head1 {
+                        font-weight: 400;
+                        margin: 0;
+                        }
+                        .per1{
+                        color: Irgb(168, 162, 162);
+                        }
+                        .btnc {
+                        height: 50px;
+                        width: 50%;
+                        outline: none;
+                        border: none;
+                        color: white;
+                        background: blue;
+                        border-radius: 50px;
+                        margin: 0 auto;
+                        display: block;
+                        transition: all 0.4s;
+                        }
+                        .card:hover{
+                            box-shadow: -3px -1px 25px -4px rgba(0,0,0,0.75);
+                        -webkit-box-shadow: -3px -1px 25px -4px rgba(0,0,0,0.75);
+                        -moz-box-shadow: -3px -1px 25px -4px rgba(0,0,0,0.75);
+                        transition: o.5s;
+                        }
